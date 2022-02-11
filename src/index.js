@@ -35,10 +35,10 @@ $('form').on('submit', (e) => {
   e.preventDefault();
   clearDisplay();
 
-  const currencyAmount = parseInt($('#currency-amount').val());
+  const currencyAmount = parseFloat($('#currency-amount').val());
   const currencyCode = $('#currencies option:selected').val();
 
-  if (!Number.isInteger(currencyAmount)) {
+  if (Number.isNaN(currencyAmount)) {
     displayErrorMessage(new Error('Please enter a number.'));
     return;
   }
