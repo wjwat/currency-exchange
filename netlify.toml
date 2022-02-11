@@ -1,0 +1,12 @@
+[build]
+base = "."
+publish = "./dist"
+command = "npm run build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; font-src fonts.gstatic.com; style-src 'self' fonts.googleapis.com *.cloudfront.net *.jsdelivr.net 'unsafe-inline'; img-src * 'self' data:; script-src 'self' *.cloudfront.net;"
+    X-XSS-Protection = "1; mode=block"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
