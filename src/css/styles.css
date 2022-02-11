@@ -2,6 +2,16 @@ form {
   max-width: 40rem;
 }
 
+input {
+  display: block;
+  width: 50%;
+}
+
+select {
+  display: block;
+  width: 50%;
+}
+
 input:invalid {
   border: 2px dashed red;
 }

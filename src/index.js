@@ -16,14 +16,14 @@ function writeDisplay(str, outClass) {
   output.html(str);
 }
 
-function displayConvertedCurrency(resp, currency, dollars, compCurrency) {
-  if (!(compCurrency in resp['conversion_rates'])) {
+function displayConvertedCurrency(rates, currency, currentAmount, compCurrency) {
+  if (!(compCurrency in rates)) {
     displayErrorMessage(new Error(`Unable to find ${compCurrency} in available ` + 
       `conversion types, please try a different currency`));
   }
 
-  const convertedAmount = resp['conversion_rates'][compCurrency] * dollars;
-  const outString = `${dollars}${currency} = ${convertedAmount}${compCurrency}`;
+  const convertedAmount = rates[compCurrency] * currentAmount;
+  const outString = `${currentAmount}${currency} = ${convertedAmount}${compCurrency}`;
   writeDisplay(outString, 'success');
 }
 
@@ -49,7 +49,7 @@ $('form').on('submit', (e) => {
       if (resp instanceof Error) {
         throw resp;
       }
-      displayConvertedCurrency(resp, currencyCode, currencyAmount, currencyCompCode);
+      displayConvertedCurrency(resp["conversion_rates"], currencyCode, currencyAmount, currencyCompCode);
     })
     .catch(err => {
       displayErrorMessage(err);
