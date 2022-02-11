@@ -11,16 +11,24 @@ function clearDisplay() {
   output.text('');
 }
 
+function writeDisplay(str, outClass) {
+  output.attr('class', outClass);
+  output.html(str);
+}
+
 function displayConvertedCurrency(resp, dollars, currency) {
+  if (!(currency in resp['conversion_rates'])) {
+    displayErrorMessage(new Error(`Unable to find ${currency} in available ` + 
+      `conversion types, please try a different currency`));
+  }
+
   const convertedAmount = resp['conversion_rates'][currency] * dollars;
-  const outString = `$${dollars} = ${convertedAmount}`;
-  output.attr('class', 'success');
-  output.html(outString);
+  const outString = `$${dollars} = ${convertedAmount}${currency}`;
+  writeDisplay(outString, 'success');
 }
 
 function displayErrorMessage(error) {
-  output.attr('class', 'failure');
-  output.html(error.toString());
+  writeDisplay(error.toString(), 'failure');
 }
 
 $('form').on('submit', (e) => {
@@ -31,7 +39,7 @@ $('form').on('submit', (e) => {
   const currencyCode = $('#currencies option:selected').val();
 
   if (!Number.isInteger(currencyAmount)) {
-    console.log('WRONG!');
+    displayErrorMessage(new Error('Please enter a number.'));
     return;
   }
 
