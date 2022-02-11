@@ -19,8 +19,11 @@
       <label>Please enter the value of your currency:
         <input type='text' pattern='^(?:[1-9]\d*|0)?(?:\.\d+)?' id='currency-amount' required>
       </label>
+      <label>Your type of currency
+        <select id='current-currency'>
+        </select>
       <label>Currency to compare it to:
-        <select id='currencies'>
+        <select id='comparison-currency'>
         </select>
       </label>
       <button type='submit' id='find-exchange'>Find Your Money!</button>

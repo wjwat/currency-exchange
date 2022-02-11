@@ -16,14 +16,14 @@ function writeDisplay(str, outClass) {
   output.html(str);
 }
 
-function displayConvertedCurrency(resp, dollars, currency) {
-  if (!(currency in resp['conversion_rates'])) {
-    displayErrorMessage(new Error(`Unable to find ${currency} in available ` + 
+function displayConvertedCurrency(resp, currency, dollars, compCurrency) {
+  if (!(compCurrency in resp['conversion_rates'])) {
+    displayErrorMessage(new Error(`Unable to find ${compCurrency} in available ` + 
       `conversion types, please try a different currency`));
   }
 
-  const convertedAmount = resp['conversion_rates'][currency] * dollars;
-  const outString = `$${dollars} = ${convertedAmount}${currency}`;
+  const convertedAmount = resp['conversion_rates'][compCurrency] * dollars;
+  const outString = `${dollars}${currency} = ${convertedAmount}${compCurrency}`;
   writeDisplay(outString, 'success');
 }
 
@@ -36,23 +36,25 @@ $('form').on('submit', (e) => {
   clearDisplay();
 
   const currencyAmount = parseFloat($('#currency-amount').val());
-  const currencyCode = $('#currencies option:selected').val();
+  const currencyCode = $('#current-currency option:selected').val();
+  const currencyCompCode = $('#comparison-currency option:selected').val();
 
   if (Number.isNaN(currencyAmount)) {
     displayErrorMessage(new Error('Please enter a number.'));
     return;
   }
 
-  CurrencyExchanger.getRates('USD')
+  CurrencyExchanger.getRates(currencyCode)
     .then(resp => {
       if (resp instanceof Error) {
         throw resp;
       }
-      displayConvertedCurrency(resp, currencyAmount, currencyCode);
+      displayConvertedCurrency(resp, currencyCode, currencyAmount, currencyCompCode);
     })
     .catch(err => {
       displayErrorMessage(err);
     });
 });
 
-$('#currencies').html(fillSelectOptions(Object.entries(currencies)));
+$('#current-currency').html(fillSelectOptions(Object.entries(currencies), 'USD'));
+$('#comparison-currency').html(fillSelectOptions(Object.entries(currencies)));
