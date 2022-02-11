@@ -10,10 +10,16 @@ export default class CurrencyExchanger {
     };
 
     try {
+      const cached = this.checkCache();
+      if (cached) {
+        return cached;
+      }
+
       const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/${currencyCode}`);
       const result = await response.json();
 
       if (response.status === 200 && result.result === 'success') {
+        this.setCachedResponse(result);
         return result;
       } else if (result.result === 'error' && result['error-type'] in errorResponses) {
         throw new Error(`${result['error-type']}: ${errorResponses[result['error-type']]}`);
@@ -23,5 +29,22 @@ export default class CurrencyExchanger {
     } catch (error) {
       return error;
     }
+  }
+
+  static checkCache() {
+    const cached = this.getCachedResponse();
+    if (cached && cached.time_next_update_unix > Math.floor(Date.now() / 1000)) {
+      return cached;
+    }
+    return '';
+  }
+
+  static setCachedResponse(item) {
+    sessionStorage.setItem('CurrencyExchangerCache', JSON.stringify(item));
+  }
+
+  static getCachedResponse() {
+    let x = JSON.parse(sessionStorage.getItem('CurrencyExchangerCache'));
+    return x;
   }
 }
