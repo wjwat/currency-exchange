@@ -16,14 +16,10 @@ function writeDisplay(str, outClass) {
   output.html(str);
 }
 
-function displayConvertedCurrency(rates, currency, currentAmount, compCurrency) {
-  if (!(compCurrency in rates)) {
-    displayErrorMessage(new Error(`Unable to find ${compCurrency} in available ` + 
-      `conversion types, please try a different currency`));
-  }
-
-  const convertedAmount = rates[compCurrency] * currentAmount;
-  const outString = `${currentAmount}${currency} = ${convertedAmount}${compCurrency}`;
+function displayConvertedCurrency(rates, amount, currency, compCurrency) {
+  const convertedAmount = rates[compCurrency] * amount;
+  const outString = `${amount.toFixed(2)} ${currency} = ` + 
+    `${convertedAmount.toFixed(2)} ${compCurrency}`;
   writeDisplay(outString, 'success');
 }
 
@@ -35,26 +31,30 @@ $('form').on('submit', (e) => {
   e.preventDefault();
   clearDisplay();
 
-  const currencyAmount = parseFloat($('#currency-amount').val());
-  const currencyCode = $('#current-currency option:selected').val();
-  const currencyCompCode = $('#comparison-currency option:selected').val();
+  const amount = parseFloat($('#currency-amount').val());
+  const currency = $('#current-currency option:selected').val();
+  const currencyComp = $('#comparison-currency option:selected').val();
 
-  if (Number.isNaN(currencyAmount)) {
+  if (Number.isNaN(amount)) {
     displayErrorMessage(new Error('Please enter a number.'));
     return;
   }
 
-  CurrencyExchanger.getRates(currencyCode)
+  CurrencyExchanger.getRates(currency)
     .then(resp => {
       if (resp instanceof Error) {
         throw resp;
+      } else if (!(currencyComp in resp["conversion_rates"])) {
+        throw new Error(`Unable to find ${currencyComp} in available conversion ` + 
+          `types, please try a different currency`)
       }
-      displayConvertedCurrency(resp["conversion_rates"], currencyCode, currencyAmount, currencyCompCode);
+      displayConvertedCurrency(resp["conversion_rates"], amount, currency, currencyComp);
     })
     .catch(err => {
       displayErrorMessage(err);
     });
 });
 
+// Populate select options from our JSON
 $('#current-currency').html(fillSelectOptions(Object.entries(currencies), 'USD'));
 $('#comparison-currency').html(fillSelectOptions(Object.entries(currencies)));

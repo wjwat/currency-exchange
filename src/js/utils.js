@@ -5,7 +5,8 @@ export default function fillSelectOptions(options, selected) {
     if (e[0] === selected) {
       t = 'selected ';
     }
-    retString += `<option ${t}value="${e[0]}">${e[0]} / ${e[1].name} / ${e[1].country}</option>\n`;
+    retString += `<option ${t}value="${e[0]}">${e[0]} / ${e[1].name} / ` + 
+      `${e[1].country} / ${e[1].symbol.grapheme}</option>\n`;
   });
   return retString;
 }
