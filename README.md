@@ -76,6 +76,7 @@ Wish me luck!
 * [ ] Display values of input for all available conversions
 * [ ] Add symbols for each type of currency
 * [ ] Reorganize code to be cleaner
+* [ ] Clean up currencies.json, too much unnecessary info for our purposes
 
 ## :lady_beetle: Known Bugs
 
