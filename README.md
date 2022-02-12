@@ -13,7 +13,6 @@
   - Node v14.x
   - npm v6.x
   - jQuery
-  - Babel
   - Webpack
   - ESLint
 * Netlify
@@ -25,7 +24,25 @@ This project gave me an opportunity to explore making asynchronous calls to a cu
 
 ## :gear: Setup/Installation & Usage Instructions
 
-- List of instructions
+### Getting an API key
+
+- Go to the [ExchangeRate-API](https://www.exchangerate-api.com/) site.
+- Type in your email address and click the `Get Free Key!` button.
+- Choose a password for your free account and click the `Accept Terms & Create API Key!` button.
+- Check your email account for a verification email & click the link in it to activate your account.
+- You will be redirected to your account page on _exchangerate-api.com_ & your API key will be listed. Do not share this key, but do make note of it and how to retrieve it easily.
+- [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your device
+- [Install Node & npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Using your terminal](https://www.freecodecamp.org/news/how-you-can-be-more-productive-right-now-using-bash-29a976fb1ab4/) navigate to the directory where you have cloned this repo.
+- With a text editor or from the command line create a file in the root of the project directory named `.env`
+- In this file type in `API_KEY=<YOUR API KEY>` substituting `<YOUR API KEY>` with your API key from _exchangerate-api.com_.
+  - This will allow you to use the site as intended and make calls to the _exchangerate-api.com_ API.
+- Run `npm install` and wait for it to finish.
+- If you'd like to view the project as is, at this point you can do one of:
+  - Run `npm run start` and a browser window will open displaying this project
+  - Run `npm run build` and all the files necessary to view this project will be put under the `dist\` directory in the root of the project directory.
+- If you'd like to modify the source please look in the `src\` directory.
+  - Be sure to include the `.env` file in your `.gitignore`!
 
 ## :world_map: Roadmap
 
@@ -34,10 +51,12 @@ This project gave me an opportunity to explore making asynchronous calls to a cu
 * [ ] Display all conversion rates by themselves
 * [ ] Display values of input for all available conversions
 * [ ] Add symbols for each type of currency
+* [ ] Reorganize code to be cleaner
 
 ## :lady_beetle: Known Bugs
 
-* Bugs
+* If any are found please feel free to open an issue or email me at wjwat at
+  onionslice dot org
 
 ## :warning: License
 
