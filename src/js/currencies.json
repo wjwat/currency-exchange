@@ -1,646 +1,2136 @@
 {
   "AED": {
     "name": "UAE Dirham",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": ".\u062f.\u0625",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": null,
     "country": "United Arab Emirates"
   },
   "AFN": {
-    "name": "Afghan Afghani",
+    "name": "Afghani",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u060b",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": "\u060b",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Afghanistan"
   },
   "ALL": {
-    "name": "Albanian Lek",
+    "name": "Lek",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "L",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Lek",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Albania"
   },
   "AMD": {
     "name": "Armenian Dram",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0564\u0580.",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u0564\u0580.",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "Armenia"
   },
   "ANG": {
-    "name": "Netherlands Antillian Guilder",
+    "name": "Netherlands Antillean Guilder",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0192",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "NA\u0192",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Netherlands Antilles"
   },
   "AOA": {
-    "name": "Angolan Kwanza",
+    "name": "Kwanza",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Kz",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Angola"
   },
   "ARS": {
     "name": "Argentine Peso",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Argentina"
   },
   "AUD": {
     "name": "Australian Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "A$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Australia"
   },
   "AWG": {
     "name": "Aruban Florin",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0192",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Afl",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Aruba"
   },
   "AZN": {
-    "name": "Azerbaijani Manat",
+    "name": "Azerbaijanian Manat",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20bc",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20bc",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Azerbaijan"
   },
   "BAM": {
-    "name": "Bosnia and Herzegovina Mark",
+    "name": "Convertible Mark",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "KM",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "KM",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Bosnia and Herzegovina"
   },
   "BBD": {
     "name": "Barbados Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Barbados"
   },
   "BDT": {
-    "name": "Bangladeshi Taka",
+    "name": "Taka",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u09f3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Bangladesh"
   },
   "BGN": {
     "name": "Bulgarian Lev",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u043b\u0432",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u043b\u0432",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Bulgaria"
   },
   "BHD": {
     "name": "Bahraini Dinar",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": ".\u062f.\u0628",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u0628",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Bahrain"
   },
   "BIF": {
-    "name": "Burundian Franc",
+    "name": "Burundi Franc",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "FBu",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Burundi"
   },
   "BMD": {
     "name": "Bermudian Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "BD$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Bermuda"
   },
   "BND": {
     "name": "Brunei Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Brunei"
   },
   "BOB": {
-    "name": "Bolivian Boliviano",
+    "name": "Boliviano",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Bs.",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Bs.",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Bolivia"
   },
   "BRL": {
     "name": "Brazilian Real",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "R$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "R$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Brazil"
   },
   "BSD": {
     "name": "Bahamian Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Bahamas"
   },
   "BTN": {
-    "name": "Bhutanese Ngultrum",
+    "name": "Ngultrum",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Nu.",
+      "template": "$ 1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Bhutan"
   },
   "BWP": {
-    "name": "Botswana Pula",
+    "name": "Pula",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "P",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "P",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Botswana"
   },
   "BYN": {
-    "name": "Belarusian Ruble",
+    "name": "Belarussian Ruble",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "p.",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u0440.",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "Belarus"
   },
   "BZD": {
     "name": "Belize Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "BZ$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "BZ$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Belize"
   },
   "CAD": {
     "name": "Canadian Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "CA$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Canada"
   },
   "CDF": {
     "name": "Congolese Franc",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "FC",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Democratic Republic of the Congo"
   },
   "CHF": {
     "name": "Swiss Franc",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "fr.",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Switzerland"
   },
   "CLP": {
     "name": "Chilean Peso",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Chile"
   },
   "CNY": {
-    "name": "Chinese Renminbi",
+    "name": "Yuan Renminbi",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u5143",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u5143",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "China"
   },
   "COP": {
     "name": "Colombian Peso",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Colombia"
   },
   "CRC": {
-    "name": "Costa Rican Colon",
+    "name": "Cost Rican Colon",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a1",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20a1",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Costa Rica"
   },
   "CUP": {
     "name": "Cuban Peso",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$MN",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "$MN",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Cuba"
   },
   "CVE": {
-    "name": "Cape Verdean Escudo",
+    "name": "Cabo Verde Escudo",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "esc",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Cape Verde"
   },
   "CZK": {
     "name": "Czech Koruna",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "K\u010d",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "K\u010d",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "Czech Republic"
   },
   "DJF": {
-    "name": "Djiboutian Franc",
+    "name": "Djibouti Franc",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "Fdj",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Djibouti"
   },
   "DKK": {
     "name": "Danish Krone",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "kr",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Denmark"
   },
   "DOP": {
     "name": "Dominican Peso",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "RD$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "RD$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Dominican Republic"
   },
   "DZD": {
     "name": "Algerian Dinar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": ".\u062f.\u062c",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u062c",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Algeria"
   },
   "EGP": {
     "name": "Egyptian Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062c.\u0645",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Egypt"
   },
   "ERN": {
-    "name": "Eritrean Nakfa",
+    "name": "Nakfa",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Nkf",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Eritrea"
   },
   "ETB": {
     "name": "Ethiopian Birr",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Br",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Ethiopia"
   },
   "EUR": {
     "name": "Euro",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20ac",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20ac",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "European Union"
   },
   "FJD": {
     "name": "Fiji Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "FJ$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Fiji"
   },
   "FKP": {
     "name": "Falkland Islands Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Falkland Islands"
   },
   "FOK": {
-    "name": "Faroese Króna",
-    "country": "Faroe Islands"
+    "name": "Faroese Kr\u00f3na",
+    "country": "Faroe Islands",
+    "symbol": {
+      "grapheme": "kr"
+    }
   },
   "GBP": {
     "name": "Pound Sterling",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "United Kingdom"
   },
   "GEL": {
-    "name": "Georgian Lari",
+    "name": "Lari",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "GEL",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Georgia"
   },
   "GGP": {
     "name": "Guernsey Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Guernsey"
   },
   "GHS": {
-    "name": "Ghanaian Cedi",
+    "name": "Ghan Cedi",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "GH\u20b5",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Ghana"
   },
   "GIP": {
     "name": "Gibraltar Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Gibraltar"
   },
   "GMD": {
-    "name": "Gambian Dalasi",
+    "name": "Dalasi",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "D",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "The Gambia"
   },
   "GNF": {
-    "name": "Guinean Franc",
+    "name": "Guine Franc",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "GFr",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Guinea"
   },
   "GTQ": {
-    "name": "Guatemalan Quetzal",
+    "name": "Quetzal",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Q",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Q",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Guatemala"
   },
   "GYD": {
-    "name": "Guyanese Dollar",
+    "name": "Guyan Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "GY$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Guyana"
   },
   "HKD": {
     "name": "Hong Kong Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "HK$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Hong Kong"
   },
   "HNL": {
-    "name": "Honduran Lempira",
+    "name": "Lempira",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "L",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "L",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Honduras"
   },
   "HRK": {
     "name": "Croatian Kuna",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "kn",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "kn",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Croatia"
   },
   "HTG": {
-    "name": "Haitian Gourde",
+    "name": "Gourde",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "G",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Haiti"
   },
   "HUF": {
-    "name": "Hungarian Forint",
+    "name": "Forint",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "Ft",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Ft",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Hungary"
   },
   "IDR": {
-    "name": "Indonesian Rupiah",
+    "name": "Rupiah",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Rp",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Rp",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Indonesia"
   },
   "ILS": {
-    "name": "Israeli New Shekel",
+    "name": "New Israeli Sheqel",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20aa",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20aa",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Israel"
   },
   "IMP": {
     "name": "Manx Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Isle of Man"
   },
   "INR": {
     "name": "Indian Rupee",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20b9",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20b9",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "India"
   },
   "IQD": {
     "name": "Iraqi Dinar",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": ".\u062f.\u0639",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u0639",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Iraq"
   },
   "IRR": {
     "name": "Iranian Rial",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "\ufdfc",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": "\ufdfc",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Iran"
   },
   "ISK": {
-    "name": "Icelandic Króna",
+    "name": "Iceland Krona",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "kr",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Iceland"
   },
   "JEP": {
     "name": "Jersey Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Jersey"
   },
   "JMD": {
     "name": "Jamaican Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "J$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "J$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Jamaica"
   },
   "JOD": {
     "name": "Jordanian Dinar",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": ".\u062f.\u0625",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": null,
     "country": "Jordan"
   },
   "JPY": {
-    "name": "Japanese Yen",
+    "name": "Yen",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "\u00a5",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u00a5",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Japan"
   },
   "KES": {
     "name": "Kenyan Shilling",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "KSh",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "KSh",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Kenya"
   },
   "KGS": {
-    "name": "Kyrgyzstani Som",
+    "name": "Som",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0441\u043e\u043c",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u0441\u043e\u043c",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Kyrgyzstan"
   },
   "KHR": {
-    "name": "Cambodian Riel",
+    "name": "Riel",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u17db",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u17db",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Cambodia"
   },
   "KID": {
     "name": "Kiribati Dollar",
-    "country": "Kiribati"
+    "country": "Kiribati",
+    "symbol": {
+      "grapheme": "$"
+    }
   },
   "KMF": {
-    "name": "Comorian Franc",
+    "name": "Comoro Franc",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "CF",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Comoros"
   },
   "KRW": {
-    "name": "South Korean Won",
+    "name": "Won",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "\u20a9",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20a9",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "South Korea"
   },
   "KWD": {
     "name": "Kuwaiti Dinar",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": ".\u062f.\u0643",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u0643",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Kuwait"
   },
   "KYD": {
     "name": "Cayman Islands Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "CI$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Cayman Islands"
   },
   "KZT": {
-    "name": "Kazakhstani Tenge",
+    "name": "Tenge",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20b8",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20b8",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Kazakhstan"
   },
   "LAK": {
-    "name": "Lao Kip",
+    "name": "Kip",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20ad",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20ad",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Laos"
   },
   "LBP": {
     "name": "Lebanese Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u0644.\u0644",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Lebanon"
   },
   "LKR": {
-    "name": "Sri Lanka Rupee",
+    "name": "Sri Lank Rupee",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a8",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Sri Lanka"
   },
   "LRD": {
     "name": "Liberian Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "L$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Liberia"
   },
   "LSL": {
-    "name": "Lesotho Loti",
+    "name": "Loti",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "LSL",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Lesotho"
   },
   "LYD": {
     "name": "Libyan Dinar",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": ".\u062f.\u0644",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u0644",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Libya"
   },
   "MAD": {
     "name": "Moroccan Dirham",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": ".\u062f.\u0645",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u0645",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Morocco"
   },
   "MDL": {
     "name": "Moldovan Leu",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "lei",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Moldova"
   },
   "MGA": {
-    "name": "Malagasy Ariary",
+    "name": "Malagasy ariary",
+    "fractionSize": 1,
+    "symbol": {
+      "grapheme": "Ar",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Madagascar"
   },
   "MKD": {
-    "name": "Macedonian Denar",
+    "name": "Denar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0434\u0435\u043d",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u0434\u0435\u043d",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "North Macedonia"
   },
   "MMK": {
-    "name": "Burmese Kyat",
+    "name": "Kyat",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "K",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Myanmar"
   },
   "MNT": {
-    "name": "Mongolian Tögrög",
+    "name": "Tugrik",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20ae",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20ae",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Mongolia"
   },
   "MOP": {
-    "name": "Macanese Pataca",
+    "name": "Pataca",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "MOP$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Macau"
   },
   "MRU": {
     "name": "Mauritanian Ouguiya",
-    "country": "Mauritania"
+    "country": "Mauritania",
+    "symbol": {
+      "grapheme": "UM"
+    }
   },
   "MUR": {
-    "name": "Mauritian Rupee",
+    "name": "Mauritius Rupee",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a8",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Mauritius"
   },
   "MVR": {
-    "name": "Maldivian Rufiyaa",
+    "name": "Rufiyaa",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "MVR",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Maldives"
   },
   "MWK": {
-    "name": "Malawian Kwacha",
+    "name": "Kwacha",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "MK",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Malawi"
   },
   "MXN": {
     "name": "Mexican Peso",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Mexico"
   },
   "MYR": {
     "name": "Malaysian Ringgit",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "RM",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "RM",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Malaysia"
   },
   "MZN": {
-    "name": "Mozambican Metical",
+    "name": "Mozambique Metical",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "MT",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "MT",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Mozambique"
   },
   "NAD": {
-    "name": "Namibian Dollar",
+    "name": "Namibi Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "N$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Namibia"
   },
   "NGN": {
-    "name": "Nigerian Naira",
+    "name": "Naira",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a6",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20a6",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Nigeria"
   },
   "NIO": {
-    "name": "Nicaraguan Córdoba",
+    "name": "Cordob Oro",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "C$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "C$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Nicaragua"
   },
   "NOK": {
     "name": "Norwegian Krone",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "kr",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Norway"
   },
   "NPR": {
     "name": "Nepalese Rupee",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a8",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Nepal"
   },
   "NZD": {
     "name": "New Zealand Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "NZ$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "New Zealand"
   },
   "OMR": {
-    "name": "Omani Rial",
+    "name": "Rial Omani",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": "\ufdfc",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u0631.\u0639",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Oman"
   },
   "PAB": {
-    "name": "Panamanian Balboa",
+    "name": "Balboa",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "B/.",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "B/.",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Panama"
   },
   "PEN": {
-    "name": "Peruvian Sol",
+    "name": "Nuevo Sol",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "S/",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "S/",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Peru"
   },
   "PGK": {
-    "name": "Papua New Guinean Kina",
+    "name": "Kina",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "K",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Papua New Guinea"
   },
   "PHP": {
     "name": "Philippine Peso",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20b1",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20b1",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Philippines"
   },
   "PKR": {
-    "name": "Pakistani Rupee",
+    "name": "Pakistan Rupee",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a8",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Pakistan"
   },
   "PLN": {
-    "name": "Polish Złoty",
+    "name": "Zloty",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "z\u0142",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "z\u0142",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "Poland"
   },
   "PYG": {
-    "name": "Paraguayan Guaraní",
+    "name": "Guarani",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "Gs",
+      "template": "1$",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Gs",
+      "template": "1$",
+      "rtl": false
+    },
     "country": "Paraguay"
   },
   "QAR": {
-    "name": "Qatari Riyal",
+    "name": "Qatari Rial",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\ufdfc",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u0631.\u0642",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Qatar"
   },
   "RON": {
-    "name": "Romanian Leu",
+    "name": "New Romanian Leu",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "lei",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "lei",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Romania"
   },
   "RSD": {
     "name": "Serbian Dinar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0414\u0438\u043d.",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u0414\u0438\u043d.",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Serbia"
   },
   "RUB": {
     "name": "Russian Ruble",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20bd",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20bd",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "Russia"
   },
   "RWF": {
-    "name": "Rwandan Franc",
+    "name": "Rwand Franc",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "R\u20a3",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Rwanda"
   },
   "SAR": {
     "name": "Saudi Riyal",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\ufdfc",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u0631.\u0633",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Saudi Arabia"
   },
   "SBD": {
     "name": "Solomon Islands Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "SI$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Solomon Islands"
   },
   "SCR": {
-    "name": "Seychellois Rupee",
+    "name": "Seychelles Rupee",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20a8",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Seychelles"
   },
   "SDG": {
     "name": "Sudanese Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "SDG",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Sudan"
   },
   "SEK": {
     "name": "Swedish Krona",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "kr",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Sweden"
   },
   "SGD": {
     "name": "Singapore Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "S$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Singapore"
   },
   "SHP": {
-    "name": "Saint Helena Pound",
+    "name": "Saint Helen Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Saint Helena"
   },
   "SLL": {
-    "name": "Sierra Leonean Leone",
+    "name": "Leone",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Le",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Sierra Leone"
   },
   "SOS": {
     "name": "Somali Shilling",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "S",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "S",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Somalia"
   },
   "SRD": {
-    "name": "Surinamese Dollar",
+    "name": "Surinam Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Suriname"
   },
   "SSP": {
     "name": "South Sudanese Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "SS\u00a3",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "South Sudan"
   },
   "STN": {
-    "name": "São Tomé and Príncipe Dobra",
-    "country": "São Tomé and Príncipe"
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra",
+    "country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "symbol": {
+      "grapheme": "Db"
+    }
   },
   "SYP": {
     "name": "Syrian Pound",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u00a3",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u0644.\u0633",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Syria"
   },
   "SZL": {
-    "name": "Eswatini Lilangeni",
+    "name": "Lilangeni",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "L",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Eswatini"
   },
   "THB": {
-    "name": "Thai Baht",
+    "name": "Baht",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u0e3f",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u0e3f",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Thailand"
   },
   "TJS": {
-    "name": "Tajikistani Somoni",
+    "name": "Somoni",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "SM",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Tajikistan"
   },
   "TMT": {
-    "name": "Turkmenistan Manat",
+    "name": "Turkmenistan New Manat",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "T",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Turkmenistan"
   },
   "TND": {
     "name": "Tunisian Dinar",
+    "fractionSize": 3,
+    "symbol": {
+      "grapheme": ".\u062f.\u062a",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u062f.\u062a",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Tunisia"
   },
   "TOP": {
-    "name": "Tongan Paʻanga",
+    "name": "Pa\u2019anga",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "T$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Tonga"
   },
   "TRY": {
     "name": "Turkish Lira",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20ba",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20ba",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Turkey"
   },
   "TTD": {
     "name": "Trinidad and Tobago Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "TT$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "TT$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Trinidad and Tobago"
   },
   "TVD": {
     "name": "Tuvaluan Dollar",
-    "country": "Tuvalu"
+    "country": "Tuvalu",
+    "symbol": {
+      "grapheme": "TV$"
+    }
   },
   "TWD": {
     "name": "New Taiwan Dollar",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "NT$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "NT$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Taiwan"
   },
   "TZS": {
     "name": "Tanzanian Shilling",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "TSh",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "TSh",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Tanzania"
   },
   "UAH": {
-    "name": "Ukrainian Hryvnia",
+    "name": "Hryvnia",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\u20b4",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20b4",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Ukraine"
   },
   "UGX": {
-    "name": "Ugandan Shilling",
+    "name": "Ugand Shilling",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "USh",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "USh",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Uganda"
   },
   "USD": {
-    "name": "United States Dollar",
+    "name": "US Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "US$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "US$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "United States"
   },
   "UYU": {
-    "name": "Uruguayan Peso",
+    "name": "Peso Uruguayo",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "$U",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "$U",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Uruguay"
   },
   "UZS": {
-    "name": "Uzbekistani So'm",
+    "name": "Uzbekistan Sum",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "so\u2019m",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "so\u2019m",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Uzbekistan"
   },
   "VES": {
-    "name": "Venezuelan Bolívar Soberano",
+    "name": "Bolivar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Bs",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "Bs",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Venezuela"
   },
   "VND": {
-    "name": "Vietnamese Đồng",
+    "name": "Dong",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "\u20ab",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "\u20ab",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "Vietnam"
   },
   "VUV": {
-    "name": "Vanuatu Vatu",
+    "name": "Vatu",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "VT",
+      "template": "1$",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Vanuatu"
   },
   "WST": {
-    "name": "Samoan Tālā",
+    "name": "Tala",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "WS$",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Samoa"
   },
   "XAF": {
-    "name": "Central African CFA Franc",
+    "name": "CFA Franc BEAC",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "FCFA",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "FCFA",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "CEMAC"
   },
   "XCD": {
     "name": "East Caribbean Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "EC$",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "Organisation of Eastern Caribbean States"
   },
   "XDR": {
-    "name": "Special Drawing Rights",
+    "name": "SDR (Special Drawing Right)",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "SDR",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "International Monetary Fund"
   },
   "XOF": {
-    "name": "West African CFA franc",
+    "name": "CFA Franc BCEAO",
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "CFA",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "CFA",
+      "template": "1 $",
+      "rtl": false
+    },
     "country": "CFA"
   },
   "XPF": {
     "name": "CFP Franc",
-    "country": "Collectivités d'Outre-Mer"
+    "fractionSize": 0,
+    "symbol": {
+      "grapheme": "\u20a3",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
+    "country": "Collectivit\u00e9s d'Outre-Mer"
   },
   "YER": {
     "name": "Yemeni Rial",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "\ufdfc",
+      "template": "1 $",
+      "rtl": true
+    },
+    "uniqSymbol": {
+      "grapheme": ".\u0631.\u064a",
+      "template": "1 $",
+      "rtl": true
+    },
     "country": "Yemen"
   },
   "ZAR": {
-    "name": "South African Rand",
+    "name": "Rand",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "R",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "R",
+      "template": "$1",
+      "rtl": false
+    },
     "country": "South Africa"
   },
   "ZMW": {
     "name": "Zambian Kwacha",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "K",
+      "template": "1 $",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Zambia"
   },
   "ZWL": {
-    "name": "Zimbabwean Dollar",
+    "name": "Zimbabwe Dollar",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "Z$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
     "country": "Zimbabwe"
+  },
+  "ZZZ": {
+    "name": "ZZ Top's Zollars",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "ZZ$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null,
+    "country": "Texas"
   }
 }
