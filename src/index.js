@@ -46,7 +46,7 @@ $('form').on('submit', (e) => {
         throw resp;
       } else if (!(currencyComp in resp["conversion_rates"])) {
         throw new Error(`Unable to find ${currencyComp} in available conversion ` + 
-          `types, please try a different currency`)
+          `types, please try a different currency`);
       }
       displayConvertedCurrency(resp["conversion_rates"], amount, currency, currencyComp);
     })
