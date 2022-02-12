@@ -16,13 +16,14 @@
     <h4>Currency Exchange Checker</h4>
     <p>Enter an amount in USD and select a currency you'd like to see the exchanged value of!</p>
     <form>
-      <label>Please enter the value of your currency:
-        <input type='text' pattern='^(?:[1-9]\d*|0)?(?:\.\d+)?' id='currency-amount' required>
+      <label>Amount:
+        <input type='number' step='0.01' placeholder='Please enter the value of your currency' id='currency-amount' required>
       </label>
-      <label>Your type of currency
+      <label>Your currency:
         <select id='current-currency'>
         </select>
-      <label>Currency to compare it to:
+      </label>
+      <label>Convert currency to:
         <select id='comparison-currency'>
         </select>
       </label>
@@ -31,9 +32,7 @@
     <h3 id='output'></h3>
   </main>
   <footer>
-    <div class='lilguy'>
-      <p>[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]</p>
-    </div>
+    <p>💵💵💵<a href='https://github.com/wjwat'>[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]</a>💵💵💵</p>
   </footer>
 </body>
 </html>

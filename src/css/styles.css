@@ -1,25 +1,43 @@
+:root {
+  --color-warn: #d86772;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  margin-top: 2rem;
+  float: right;
+}
+
+footer {
+  min-height: 5em;
+  text-align: center;
+}
+
 form {
-  max-width: 40rem;
+  overflow: hidden;
 }
 
 input {
-  display: block;
-  width: 50%;
+  margin-bottom: 1rem;
 }
 
-select {
-  display: block;
-  width: 50%;
+main, .epi-title {
+  max-width: 40rem;
 }
 
 input:invalid {
-  border: 2px dashed red;
+  border: 2px solid var(--color-warn);
 }
 
+.epi-title {
+  margin: 1em auto 0.5em auto;
+}
+
+
 .success {
-  color: green;
+  text-align: center;
 }
 
 .failure {
-  color: red;
+  color: var(--color-warn);
 }
