@@ -17,10 +17,10 @@ function writeDisplay(str, outClass) {
 }
 
 function displayConvertedCurrency(rates, amount, currency, compCurrency) {
-  const convertedAmount = rates[compCurrency] * amount;
-  const outString = `${amount.toFixed(2)} ${currency} = ` + 
-    `${convertedAmount.toFixed(2)} ${compCurrency}`;
-  writeDisplay(outString, 'success');
+  const convert = rates[compCurrency] * amount;
+  const out = `${amount.toFixed(2)} ${currency} = ${convert.toFixed(2)} ` + 
+      `${compCurrency}`;
+  writeDisplay(out, 'success');
 }
 
 function displayErrorMessage(error) {
@@ -45,8 +45,8 @@ $('form').on('submit', (e) => {
       if (resp instanceof Error) {
         throw resp;
       } else if (!(currencyComp in resp["conversion_rates"])) {
-        throw new Error(`Unable to find ${currencyComp} in available conversion ` + 
-          `types, please try a different currency`);
+        throw new Error(`Unable to find ${currencyComp} in available ` + 
+            `conversion types, please try a different currency`);
       }
       displayConvertedCurrency(resp["conversion_rates"], amount, currency, currencyComp);
     })
@@ -58,3 +58,9 @@ $('form').on('submit', (e) => {
 // Populate select options from our JSON
 $('#current-currency').html(fillSelectOptions(Object.entries(currencies), 'USD'));
 $('#comparison-currency').html(fillSelectOptions(Object.entries(currencies)));
+
+if (!process.env.API_KEY) {
+  $('form').hide();
+  displayErrorMessage(new Error("Please check to make sure you have " +
+      "correctly set API_KEY, and rebuild project."));
+}
