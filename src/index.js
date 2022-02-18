@@ -4,16 +4,13 @@ import './css/styles.css';
 import CurrencyExchanger from './js/exchanger.js';
 import fillSelectOptions from './js/utils.js';
 
-const currencies = require('./js/currencies.json');
-const output = $('#output');
-
 function clearDisplay() {
-  output.text('');
+  $('#output').text('');
 }
 
 function writeDisplay(str, outClass) {
-  output.attr('class', outClass);
-  output.html(str);
+  $('#output').attr('class', outClass);
+  $('#output').html(str);
 }
 
 function displayConvertedCurrency(rates, amount, currency, compCurrency) {
@@ -55,12 +52,15 @@ $('form').on('submit', (e) => {
     });
 });
 
-// Populate select options from our JSON
-$('#current-currency').html(fillSelectOptions(Object.entries(currencies), 'USD'));
-$('#comparison-currency').html(fillSelectOptions(Object.entries(currencies)));
-
 if (!process.env.API_KEY) {
   $('form').hide();
   displayErrorMessage(new Error("Please check to make sure you have " +
       "correctly set API_KEY, and rebuild project."));
 }
+
+$(() => {
+  const currencies = require('./js/currencies.json');
+  // Populate select options from our JSON
+  $('#current-currency').html(fillSelectOptions(Object.entries(currencies), 'USD'));
+  $('#comparison-currency').html(fillSelectOptions(Object.entries(currencies)));
+});
