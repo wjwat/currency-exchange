@@ -58,9 +58,13 @@ if (!process.env.API_KEY) {
       "correctly set API_KEY, and rebuild project."));
 }
 
-$(() => {
+function getCurrencies() {
   const currencies = require('./js/currencies.json');
+  return currencies;
+}
+
+$(() => {
   // Populate select options from our JSON
-  $('#current-currency').html(fillSelectOptions(Object.entries(currencies), 'USD'));
-  $('#comparison-currency').html(fillSelectOptions(Object.entries(currencies)));
+  $('#current-currency').html(fillSelectOptions(Object.entries(getCurrencies()), 'USD'));
+  $('#comparison-currency').html(fillSelectOptions(Object.entries(getCurrencies())));
 });
